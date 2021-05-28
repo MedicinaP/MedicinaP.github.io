@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Pacifico&display=swap');
 
 .header{
 	background-color: #fcba03;
@@ -21,13 +22,15 @@
 	/*padding: 10px;*/
 	margin: 8px 0px;
 	padding: 0;
-	font-family: 'Montserrat', sans-serif;
-font-family: 'Open Sans', sans-serif;
+	font-family: 'Caveat', cursive;
+	
+  /*  font-family: 'Caveat', cursive;*/
 
 
 }
 .content{
-	/*background-color: #fcba03;*/
+	/*background-color: #ABC2CA;*/
+	background-image: url('../img/content-fon.jpg');
 	color:white;
 font-family: 'Pattaya', sans-serif;
 	text-align: center;
@@ -35,10 +38,16 @@ font-family: 'Pattaya', sans-serif;
 	
 	/*background-size: cover;*/
 	width: 80%;
-	margin: 0 auto;
+	margin: 10px auto;
 	border-radius: 15px;
-	padding-top: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	box-shadow: 3px 7px 15px #5A488E;
 
+
+}
+.content p{
+	margin-top: 10px;
 }
 .content h1{
 	color: #122254;
@@ -62,21 +71,36 @@ font-family: 'Pattaya', sans-serif;
 	/*box-shadow:0 0 10px rgba(255, 255, 255,1); /* Параметры тени */ 
 	box-shadow: 3px 7px 15px #5A488E;
 	border-radius: 15px;
+	padding: 10px;
+	margin: 10px;
 
 }
 .box p{
 	color: #8A0303;
 	font-size: 18px;
 	font-weight: bold;
+	line-height: 1.2;
+	/*font-family: 'Caveat', cursive;*/
+	font-style: italic;
 }
 h2{
 	color:#004242;
-	font-size: 24px;
+	font-size: 29px;
 	margin: 8px 0px;
 	padding: 0;
 	line-height: 1;
+	font-family: 'Caveat', cursive;
 
 }
+.content a{
+	text-decoration: none;
+
+}
+
+.content a:hover{
+	text-decoration: underline;
+}
+
 body{
 	/*background-image: url('../img/bg-fon.jpg');*/
 	/*background-size: cover;*/
@@ -125,8 +149,8 @@ body{
 	text-align: center;
 	margin: 20px 5px;
 	color: #44ad88;
-	font-family: 'Josefin Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
 font-family: 'Open Sans', sans-serif;
 
 
@@ -263,7 +287,25 @@ font-family: 'Open Sans', sans-serif;
 	border-top: 0px;
 }
 
+.clear{
+	clear: both;  
+}
+
 
 
 
 /* ****************** Menu */
+iframe{
+	border-radius: 15px;
+	/*border:3px solid blue;*/
+	box-shadow: 3px 7px 15px #5A488E;
+}
+
+.video{
+	margin-bottom: 35px;
+}
+#haker{
+	border-radius: 15px;
+	margin: 11px;
+	border: 3px solid #fff;
+}
